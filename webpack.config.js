@@ -28,7 +28,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Elm app',
+            title: 'Gyoza Count Down',
             template: `${__dirname}/src/index.html`,
         })
     ],
